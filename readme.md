@@ -35,23 +35,3 @@ Sigue estos pasos para clonar y poner en marcha el proyecto en tu máquina:
 ```bash
 git clone https://github.com/TU_USUARIO/nexusbiz.git
 cd NexusBiz
-2. Configurar y arrancar el Backend
-Bash
-cd nexusbiz-backend
-npm install
-Crea un archivo .env en la raíz de nexusbiz-backend con esta estructura:
-
-Fragmento de código
-PORT=5000
-MONGO_URI=tu_conexion_mongodb_aqui
-Inicia el servidor de desarrollo:
-
-Bash
-npm run dev
-3. Configurar y arrancar el Frontend
-Abre una nueva terminal en la carpeta del frontend:
-
-Bash
-cd nexusbiz-frontend
-npm install
-npm run dev
